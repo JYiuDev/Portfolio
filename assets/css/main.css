@@ -2097,12 +2097,13 @@ input, select, textarea {
 	#logo {
 		position: relative;
 		margin: 1.75em 1.5em 1.5em 1.5em;
-		min-height: 48px;
+		min-height: 64px;
 		cursor: default;
 	}
 
 		#logo h1 {
 			position: relative;
+			top: 10px;
 			color: #fff;
 			font-weight: 600;
 			font-size: 1em;
@@ -2111,6 +2112,7 @@ input, select, textarea {
 
 		#logo p {
 			position: relative;
+			top: 5px;
 			display: block;
 			font-size: 0.6em;
 			color: rgba(255, 255, 255, 0.5);
